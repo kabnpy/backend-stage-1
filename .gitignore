@@ -1,1 +1,28 @@
-/venv
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+
+# Secrets
+.env
