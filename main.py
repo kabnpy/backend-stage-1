@@ -29,7 +29,7 @@ class StringProperties(BaseModel):
     is_palindrome: bool
     unique_characters: int
     word_count: int
-    sha256_hash: str = Field(..., alias="id")
+    sha256_hash: str
     character_frequency_map: Dict[str, int]
 
 
